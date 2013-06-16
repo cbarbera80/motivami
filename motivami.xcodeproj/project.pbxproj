@@ -46,8 +46,8 @@
 		F674E5F81769F01500E47EE4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F674E5F71769F01500E47EE4 /* Default@2x.png */; };
 		F674E5FA1769F01500E47EE4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F674E5F91769F01500E47EE4 /* Default-568h@2x.png */; };
 		F6A8E6D0176B481B00ECA885 /* TipoProgramma.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A8E6CF176B481B00ECA885 /* TipoProgramma.m */; };
-		F6A8E6E3176B706400ECA885 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A8E6E2176B706400ECA885 /* MainStoryboard.storyboard */; };
 		F6A8E6E6176DB3A200ECA885 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6A8E6E4176DB3A200ECA885 /* Localizable.strings */; };
+		F6E070FB176DEB0000ECBE0A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E070FD176DEB0000ECBE0A /* MainStoryboard.storyboard */; };
 		FB32FAFC204A4918959C01D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C936D84B9D2340F78608A2EA /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -121,8 +121,11 @@
 		F674E5F91769F01500E47EE4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F6A8E6CE176B481B00ECA885 /* TipoProgramma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipoProgramma.h; sourceTree = "<group>"; };
 		F6A8E6CF176B481B00ECA885 /* TipoProgramma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipoProgramma.m; sourceTree = "<group>"; };
-		F6A8E6E2176B706400ECA885 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		F6A8E6E5176DB3A200ECA885 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = motivami/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F6E070FC176DEB0000ECBE0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F6E07100176DEB3600ECBE0A /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6E07101176DEB3600ECBE0A /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F6E07102176DEB3600ECBE0A /* it */ = {isa = PBXFileReference; lastKnownFileType = file; name = it; path = it.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,7 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				F6A8E6E4176DB3A200ECA885 /* Localizable.strings */,
-				F6A8E6E2176B706400ECA885 /* MainStoryboard.storyboard */,
+				F6E070FD176DEB0000ECBE0A /* MainStoryboard.storyboard */,
 				F60C11DA1769FF910023DBD2 /* Imgs */,
 				F60C119C1769F9450023DBD2 /* Additions */,
 				F60C11951769F7E80023DBD2 /* Classes */,
@@ -387,7 +390,7 @@
 				F60C121E176A5CF00023DBD2 /* checkbox-checked@2x.png in Resources */,
 				F60C121F176A5CF00023DBD2 /* checkbox.png in Resources */,
 				F60C1220176A5CF00023DBD2 /* checkbox@2x.png in Resources */,
-				F6A8E6E3176B706400ECA885 /* MainStoryboard.storyboard in Resources */,
+				F6E070FB176DEB0000ECBE0A /* MainStoryboard.storyboard in Resources */,
 				F6A8E6E6176DB3A200ECA885 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +470,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F60C1203176A0E960023DBD2 /* en */,
+				F6E07100176DEB3600ECBE0A /* it */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -475,8 +479,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				F6A8E6E5176DB3A200ECA885 /* en */,
+				F6E07101176DEB3600ECBE0A /* it */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F6E070FD176DEB0000ECBE0A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E070FC176DEB0000ECBE0A /* en */,
+				F6E07102176DEB3600ECBE0A /* it */,
+			);
+			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
