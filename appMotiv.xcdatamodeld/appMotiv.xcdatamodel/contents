@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Frase" representedClassName="Frase" syncable="YES">
+        <attribute name="codice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="codiceProgramma" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descrizione" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selezionata" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="suono" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Programma" representedClassName="Programma" syncable="YES">
+        <attribute name="bloccato" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="codice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descrizione" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Frase" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="Programma" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>
