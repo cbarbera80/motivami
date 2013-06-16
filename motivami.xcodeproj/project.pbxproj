@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F60C118F1769F7950023DBD2 /* Ripetizione.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C11891769F7950023DBD2 /* Ripetizione.m */; };
+		F60C11941769F7DD0023DBD2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60C11931769F7DD0023DBD2 /* CoreData.framework */; };
+		F60C119A1769F89D0023DBD2 /* appMotiv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F60C11981769F89D0023DBD2 /* appMotiv.xcdatamodeld */; };
+		F60C11A81769F9460023DBD2 /* UIAlertView+AdvancedUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C119E1769F9450023DBD2 /* UIAlertView+AdvancedUIAlertView.m */; };
+		F60C11A91769F9460023DBD2 /* UIImage+iPhone5.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C11A11769F9450023DBD2 /* UIImage+iPhone5.m */; };
+		F60C11AA1769F9460023DBD2 /* UINavigationBar+CustomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C11A41769F9460023DBD2 /* UINavigationBar+CustomImage.m */; };
+		F60C11AB1769F9460023DBD2 /* UIVisibleScopeSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C11A71769F9460023DBD2 /* UIVisibleScopeSearchBar.m */; };
+		F60C11AE1769F98E0023DBD2 /* MKLocalNotificationsScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C11AC1769F98D0023DBD2 /* MKLocalNotificationsScheduler.m */; };
+		F60C11BB1769FA3A0023DBD2 /* RipetizioniViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C11B01769FA3A0023DBD2 /* RipetizioniViewController.m */; };
+		F60C11BC1769FA3A0023DBD2 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C11B11769FA3A0023DBD2 /* UsersViewController.m */; };
+		F60C11BE1769FA3A0023DBD2 /* ProgrammaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C11B41769FA3A0023DBD2 /* ProgrammaViewController.m */; };
+		F60C11BF1769FA3A0023DBD2 /* RegisterUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C11B61769FA3A0023DBD2 /* RegisterUserViewController.m */; };
+		F60C11C01769FA3A0023DBD2 /* SceltaTipoProgrammaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C11B81769FA3A0023DBD2 /* SceltaTipoProgrammaViewController.m */; };
+		F60C11CA1769FA8D0023DBD2 /* TaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C11C21769FA8D0023DBD2 /* TaskCell.m */; };
+		F60C11CB1769FA8D0023DBD2 /* UIHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C11C71769FA8D0023DBD2 /* UIHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F60C11CC1769FA8D0023DBD2 /* SSCheckBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C11C91769FA8D0023DBD2 /* SSCheckBoxView.m */; };
+		F60C1218176A59EC0023DBD2 /* SceltaFrasiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C1216176A59EC0023DBD2 /* SceltaFrasiViewController.m */; };
+		F60C121D176A5CF00023DBD2 /* checkbox-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = F60C1219176A5CF00023DBD2 /* checkbox-checked.png */; };
+		F60C121E176A5CF00023DBD2 /* checkbox-checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F60C121A176A5CF00023DBD2 /* checkbox-checked@2x.png */; };
+		F60C121F176A5CF00023DBD2 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = F60C121B176A5CF00023DBD2 /* checkbox.png */; };
+		F60C1220176A5CF00023DBD2 /* checkbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F60C121C176A5CF00023DBD2 /* checkbox@2x.png */; };
+		F60C1223176A66B20023DBD2 /* InitialSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C1222176A66B20023DBD2 /* InitialSlidingViewController.m */; };
+		F60C1226176A67350023DBD2 /* ProgrammaMotivazionaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C1225176A67340023DBD2 /* ProgrammaMotivazionaleViewController.m */; };
+		F60C1229176A67A70023DBD2 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C1228176A67A70023DBD2 /* MenuViewController.m */; };
+		F60C122C176A683C0023DBD2 /* UnderRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C122B176A683B0023DBD2 /* UnderRightViewController.m */; };
+		F60C122F176A6D720023DBD2 /* VociMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C122E176A6D720023DBD2 /* VociMenu.m */; };
+		F60C1232176B15390023DBD2 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C1231176B15390023DBD2 /* VideoViewController.m */; };
+		F60C1235176B23450023DBD2 /* Programma.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C1234176B23440023DBD2 /* Programma.m */; };
+		F60C1238176B27B60023DBD2 /* Frase.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C1237176B27B60023DBD2 /* Frase.m */; };
 		F674E5E41769F01500E47EE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F674E5E31769F01500E47EE4 /* UIKit.framework */; };
 		F674E5E61769F01500E47EE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F674E5E51769F01500E47EE4 /* Foundation.framework */; };
 		F674E5E81769F01500E47EE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F674E5E71769F01500E47EE4 /* CoreGraphics.framework */; };
@@ -16,17 +45,73 @@
 		F674E5F61769F01500E47EE4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F674E5F51769F01500E47EE4 /* Default.png */; };
 		F674E5F81769F01500E47EE4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F674E5F71769F01500E47EE4 /* Default@2x.png */; };
 		F674E5FA1769F01500E47EE4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F674E5F91769F01500E47EE4 /* Default-568h@2x.png */; };
-		F674E5FD1769F01500E47EE4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F674E5FB1769F01500E47EE4 /* MainStoryboard.storyboard */; };
-		F674E6001769F01500E47EE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F674E5FF1769F01500E47EE4 /* ViewController.m */; };
+		F6A8E6D0176B481B00ECA885 /* TipoProgramma.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A8E6CF176B481B00ECA885 /* TipoProgramma.m */; };
+		F6A8E6E3176B706400ECA885 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A8E6E2176B706400ECA885 /* MainStoryboard.storyboard */; };
+		F6A8E6E6176DB3A200ECA885 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6A8E6E4176DB3A200ECA885 /* Localizable.strings */; };
+		FB32FAFC204A4918959C01D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C936D84B9D2340F78608A2EA /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7456CF82E1DA4B69948DEA4B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		C936D84B9D2340F78608A2EA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60C11891769F7950023DBD2 /* Ripetizione.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ripetizione.m; sourceTree = "<group>"; };
+		F60C118A1769F7950023DBD2 /* Ripetizione.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ripetizione.h; sourceTree = "<group>"; };
+		F60C11931769F7DD0023DBD2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F60C11991769F89D0023DBD2 /* appMotiv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = appMotiv.xcdatamodel; sourceTree = "<group>"; };
+		F60C119D1769F9450023DBD2 /* UIAlertView+AdvancedUIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AdvancedUIAlertView.h"; sourceTree = "<group>"; };
+		F60C119E1769F9450023DBD2 /* UIAlertView+AdvancedUIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AdvancedUIAlertView.m"; sourceTree = "<group>"; };
+		F60C11A01769F9450023DBD2 /* UIImage+iPhone5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+iPhone5.h"; sourceTree = "<group>"; };
+		F60C11A11769F9450023DBD2 /* UIImage+iPhone5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+iPhone5.m"; sourceTree = "<group>"; };
+		F60C11A31769F9450023DBD2 /* UINavigationBar+CustomImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CustomImage.h"; sourceTree = "<group>"; };
+		F60C11A41769F9460023DBD2 /* UINavigationBar+CustomImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CustomImage.m"; sourceTree = "<group>"; };
+		F60C11A61769F9460023DBD2 /* UIVisibleScopeSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIVisibleScopeSearchBar.h; sourceTree = "<group>"; };
+		F60C11A71769F9460023DBD2 /* UIVisibleScopeSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVisibleScopeSearchBar.m; sourceTree = "<group>"; };
+		F60C11AC1769F98D0023DBD2 /* MKLocalNotificationsScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKLocalNotificationsScheduler.m; sourceTree = "<group>"; };
+		F60C11AD1769F98D0023DBD2 /* MKLocalNotificationsScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKLocalNotificationsScheduler.h; sourceTree = "<group>"; };
+		F60C11B01769FA3A0023DBD2 /* RipetizioniViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RipetizioniViewController.m; sourceTree = "<group>"; };
+		F60C11B11769FA3A0023DBD2 /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersViewController.m; sourceTree = "<group>"; };
+		F60C11B41769FA3A0023DBD2 /* ProgrammaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgrammaViewController.m; sourceTree = "<group>"; };
+		F60C11B51769FA3A0023DBD2 /* ProgrammaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgrammaViewController.h; sourceTree = "<group>"; };
+		F60C11B61769FA3A0023DBD2 /* RegisterUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterUserViewController.m; sourceTree = "<group>"; };
+		F60C11B71769FA3A0023DBD2 /* RipetizioniViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RipetizioniViewController.h; sourceTree = "<group>"; };
+		F60C11B81769FA3A0023DBD2 /* SceltaTipoProgrammaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceltaTipoProgrammaViewController.m; sourceTree = "<group>"; };
+		F60C11B91769FA3A0023DBD2 /* SceltaTipoProgrammaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceltaTipoProgrammaViewController.h; sourceTree = "<group>"; };
+		F60C11BA1769FA3A0023DBD2 /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersViewController.h; sourceTree = "<group>"; };
+		F60C11C11769FA660023DBD2 /* RegisterUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterUserViewController.h; sourceTree = "<group>"; };
+		F60C11C21769FA8D0023DBD2 /* TaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskCell.m; sourceTree = "<group>"; };
+		F60C11C31769FA8D0023DBD2 /* TaskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskCell.h; sourceTree = "<group>"; };
+		F60C11C61769FA8D0023DBD2 /* UIHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelpers.h; sourceTree = "<group>"; };
+		F60C11C71769FA8D0023DBD2 /* UIHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHelpers.m; sourceTree = "<group>"; };
+		F60C11C81769FA8D0023DBD2 /* SSCheckBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCheckBoxView.h; sourceTree = "<group>"; };
+		F60C11C91769FA8D0023DBD2 /* SSCheckBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCheckBoxView.m; sourceTree = "<group>"; };
+		F60C1203176A0E960023DBD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F60C1216176A59EC0023DBD2 /* SceltaFrasiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceltaFrasiViewController.m; sourceTree = "<group>"; };
+		F60C1217176A59EC0023DBD2 /* SceltaFrasiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceltaFrasiViewController.h; sourceTree = "<group>"; };
+		F60C1219176A5CF00023DBD2 /* checkbox-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-checked.png"; sourceTree = "<group>"; };
+		F60C121A176A5CF00023DBD2 /* checkbox-checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-checked@2x.png"; sourceTree = "<group>"; };
+		F60C121B176A5CF00023DBD2 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
+		F60C121C176A5CF00023DBD2 /* checkbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox@2x.png"; sourceTree = "<group>"; };
+		F60C1221176A66B20023DBD2 /* InitialSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialSlidingViewController.h; sourceTree = "<group>"; };
+		F60C1222176A66B20023DBD2 /* InitialSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialSlidingViewController.m; sourceTree = "<group>"; };
+		F60C1224176A67340023DBD2 /* ProgrammaMotivazionaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgrammaMotivazionaleViewController.h; sourceTree = "<group>"; };
+		F60C1225176A67340023DBD2 /* ProgrammaMotivazionaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgrammaMotivazionaleViewController.m; sourceTree = "<group>"; };
+		F60C1227176A67A70023DBD2 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		F60C1228176A67A70023DBD2 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		F60C122A176A683B0023DBD2 /* UnderRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderRightViewController.h; sourceTree = "<group>"; };
+		F60C122B176A683B0023DBD2 /* UnderRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderRightViewController.m; sourceTree = "<group>"; };
+		F60C122D176A6D720023DBD2 /* VociMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VociMenu.h; sourceTree = "<group>"; };
+		F60C122E176A6D720023DBD2 /* VociMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VociMenu.m; sourceTree = "<group>"; };
+		F60C1230176B15380023DBD2 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		F60C1231176B15390023DBD2 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		F60C1233176B23430023DBD2 /* Programma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Programma.h; sourceTree = "<group>"; };
+		F60C1234176B23440023DBD2 /* Programma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Programma.m; sourceTree = "<group>"; };
+		F60C1236176B27B60023DBD2 /* Frase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Frase.h; sourceTree = "<group>"; };
+		F60C1237176B27B60023DBD2 /* Frase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Frase.m; sourceTree = "<group>"; };
 		F674E5E01769F01500E47EE4 /* motivami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motivami.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F674E5E31769F01500E47EE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F674E5E51769F01500E47EE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F674E5E71769F01500E47EE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F674E5EB1769F01500E47EE4 /* motivami-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "motivami-Info.plist"; sourceTree = "<group>"; };
-		F674E5ED1769F01500E47EE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F674E5EF1769F01500E47EE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F674E5F11769F01500E47EE4 /* motivami-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "motivami-Prefix.pch"; sourceTree = "<group>"; };
 		F674E5F21769F01500E47EE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -34,9 +119,10 @@
 		F674E5F51769F01500E47EE4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F674E5F71769F01500E47EE4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F674E5F91769F01500E47EE4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		F674E5FC1769F01500E47EE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F674E5FE1769F01500E47EE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F674E5FF1769F01500E47EE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6A8E6CE176B481B00ECA885 /* TipoProgramma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipoProgramma.h; sourceTree = "<group>"; };
+		F6A8E6CF176B481B00ECA885 /* TipoProgramma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipoProgramma.m; sourceTree = "<group>"; };
+		F6A8E6E2176B706400ECA885 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F6A8E6E5176DB3A200ECA885 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = motivami/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,21 +130,154 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F60C11941769F7DD0023DBD2 /* CoreData.framework in Frameworks */,
 				F674E5E41769F01500E47EE4 /* UIKit.framework in Frameworks */,
 				F674E5E61769F01500E47EE4 /* Foundation.framework in Frameworks */,
 				F674E5E81769F01500E47EE4 /* CoreGraphics.framework in Frameworks */,
+				FB32FAFC204A4918959C01D3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F60C11951769F7E80023DBD2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F60C1237176B27B60023DBD2 /* Frase.m */,
+				F60C1236176B27B60023DBD2 /* Frase.h */,
+				F60C1233176B23430023DBD2 /* Programma.h */,
+				F60C1234176B23440023DBD2 /* Programma.m */,
+				F60C11C21769FA8D0023DBD2 /* TaskCell.m */,
+				F60C11C31769FA8D0023DBD2 /* TaskCell.h */,
+				F60C11AC1769F98D0023DBD2 /* MKLocalNotificationsScheduler.m */,
+				F60C11AD1769F98D0023DBD2 /* MKLocalNotificationsScheduler.h */,
+				F60C11891769F7950023DBD2 /* Ripetizione.m */,
+				F60C118A1769F7950023DBD2 /* Ripetizione.h */,
+				F60C122D176A6D720023DBD2 /* VociMenu.h */,
+				F60C122E176A6D720023DBD2 /* VociMenu.m */,
+				F6A8E6CE176B481B00ECA885 /* TipoProgramma.h */,
+				F6A8E6CF176B481B00ECA885 /* TipoProgramma.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F60C119C1769F9450023DBD2 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				F60C11C41769FA8D0023DBD2 /* SSCheckBoxView */,
+				F60C119D1769F9450023DBD2 /* UIAlertView+AdvancedUIAlertView.h */,
+				F60C119E1769F9450023DBD2 /* UIAlertView+AdvancedUIAlertView.m */,
+				F60C119F1769F9450023DBD2 /* UIImage+iPhone5 */,
+				F60C11A21769F9450023DBD2 /* UINavigationBar */,
+				F60C11A51769F9460023DBD2 /* UISearchBar */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		F60C119F1769F9450023DBD2 /* UIImage+iPhone5 */ = {
+			isa = PBXGroup;
+			children = (
+				F60C11A01769F9450023DBD2 /* UIImage+iPhone5.h */,
+				F60C11A11769F9450023DBD2 /* UIImage+iPhone5.m */,
+			);
+			path = "UIImage+iPhone5";
+			sourceTree = "<group>";
+		};
+		F60C11A21769F9450023DBD2 /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				F60C11A31769F9450023DBD2 /* UINavigationBar+CustomImage.h */,
+				F60C11A41769F9460023DBD2 /* UINavigationBar+CustomImage.m */,
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		F60C11A51769F9460023DBD2 /* UISearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				F60C11A61769F9460023DBD2 /* UIVisibleScopeSearchBar.h */,
+				F60C11A71769F9460023DBD2 /* UIVisibleScopeSearchBar.m */,
+			);
+			path = UISearchBar;
+			sourceTree = "<group>";
+		};
+		F60C11AF1769FA120023DBD2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F60C122A176A683B0023DBD2 /* UnderRightViewController.h */,
+				F60C122B176A683B0023DBD2 /* UnderRightViewController.m */,
+				F60C1227176A67A70023DBD2 /* MenuViewController.h */,
+				F60C1228176A67A70023DBD2 /* MenuViewController.m */,
+				F60C1224176A67340023DBD2 /* ProgrammaMotivazionaleViewController.h */,
+				F60C1225176A67340023DBD2 /* ProgrammaMotivazionaleViewController.m */,
+				F60C1221176A66B20023DBD2 /* InitialSlidingViewController.h */,
+				F60C1222176A66B20023DBD2 /* InitialSlidingViewController.m */,
+				F60C11B51769FA3A0023DBD2 /* ProgrammaViewController.h */,
+				F60C11B41769FA3A0023DBD2 /* ProgrammaViewController.m */,
+				F60C11C11769FA660023DBD2 /* RegisterUserViewController.h */,
+				F60C11B61769FA3A0023DBD2 /* RegisterUserViewController.m */,
+				F60C11B71769FA3A0023DBD2 /* RipetizioniViewController.h */,
+				F60C11B01769FA3A0023DBD2 /* RipetizioniViewController.m */,
+				F60C1217176A59EC0023DBD2 /* SceltaFrasiViewController.h */,
+				F60C1216176A59EC0023DBD2 /* SceltaFrasiViewController.m */,
+				F60C11B91769FA3A0023DBD2 /* SceltaTipoProgrammaViewController.h */,
+				F60C11B81769FA3A0023DBD2 /* SceltaTipoProgrammaViewController.m */,
+				F60C11BA1769FA3A0023DBD2 /* UsersViewController.h */,
+				F60C11B11769FA3A0023DBD2 /* UsersViewController.m */,
+				F60C1230176B15380023DBD2 /* VideoViewController.h */,
+				F60C1231176B15390023DBD2 /* VideoViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F60C11C41769FA8D0023DBD2 /* SSCheckBoxView */ = {
+			isa = PBXGroup;
+			children = (
+				F60C11C51769FA8D0023DBD2 /* Helpers */,
+				F60C11C81769FA8D0023DBD2 /* SSCheckBoxView.h */,
+				F60C11C91769FA8D0023DBD2 /* SSCheckBoxView.m */,
+			);
+			name = SSCheckBoxView;
+			path = ../SSCheckBoxView;
+			sourceTree = "<group>";
+		};
+		F60C11C51769FA8D0023DBD2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F60C11C61769FA8D0023DBD2 /* UIHelpers.h */,
+				F60C11C71769FA8D0023DBD2 /* UIHelpers.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F60C11DA1769FF910023DBD2 /* Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				F60C1219176A5CF00023DBD2 /* checkbox-checked.png */,
+				F60C121A176A5CF00023DBD2 /* checkbox-checked@2x.png */,
+				F60C121B176A5CF00023DBD2 /* checkbox.png */,
+				F60C121C176A5CF00023DBD2 /* checkbox@2x.png */,
+				F674E5F51769F01500E47EE4 /* Default.png */,
+				F674E5F71769F01500E47EE4 /* Default@2x.png */,
+				F674E5F91769F01500E47EE4 /* Default-568h@2x.png */,
+			);
+			name = Imgs;
+			path = motivami;
+			sourceTree = "<group>";
+		};
 		F674E5D71769F01500E47EE4 = {
 			isa = PBXGroup;
 			children = (
+				F6A8E6E4176DB3A200ECA885 /* Localizable.strings */,
+				F6A8E6E2176B706400ECA885 /* MainStoryboard.storyboard */,
+				F60C11DA1769FF910023DBD2 /* Imgs */,
+				F60C119C1769F9450023DBD2 /* Additions */,
+				F60C11951769F7E80023DBD2 /* Classes */,
 				F674E5E91769F01500E47EE4 /* motivami */,
 				F674E5E21769F01500E47EE4 /* Frameworks */,
 				F674E5E11769F01500E47EE4 /* Products */,
+				7456CF82E1DA4B69948DEA4B /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,9 +292,11 @@
 		F674E5E21769F01500E47EE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F60C11931769F7DD0023DBD2 /* CoreData.framework */,
 				F674E5E31769F01500E47EE4 /* UIKit.framework */,
 				F674E5E51769F01500E47EE4 /* Foundation.framework */,
 				F674E5E71769F01500E47EE4 /* CoreGraphics.framework */,
+				C936D84B9D2340F78608A2EA /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,11 +304,9 @@
 		F674E5E91769F01500E47EE4 /* motivami */ = {
 			isa = PBXGroup;
 			children = (
+				F60C11AF1769FA120023DBD2 /* ViewControllers */,
 				F674E5F21769F01500E47EE4 /* AppDelegate.h */,
 				F674E5F31769F01500E47EE4 /* AppDelegate.m */,
-				F674E5FB1769F01500E47EE4 /* MainStoryboard.storyboard */,
-				F674E5FE1769F01500E47EE4 /* ViewController.h */,
-				F674E5FF1769F01500E47EE4 /* ViewController.m */,
 				F674E5EA1769F01500E47EE4 /* Supporting Files */,
 			);
 			path = motivami;
@@ -96,13 +315,11 @@
 		F674E5EA1769F01500E47EE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F60C11981769F89D0023DBD2 /* appMotiv.xcdatamodeld */,
 				F674E5EB1769F01500E47EE4 /* motivami-Info.plist */,
 				F674E5EC1769F01500E47EE4 /* InfoPlist.strings */,
 				F674E5EF1769F01500E47EE4 /* main.m */,
 				F674E5F11769F01500E47EE4 /* motivami-Prefix.pch */,
-				F674E5F51769F01500E47EE4 /* Default.png */,
-				F674E5F71769F01500E47EE4 /* Default@2x.png */,
-				F674E5F91769F01500E47EE4 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -114,9 +331,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F674E6031769F01500E47EE4 /* Build configuration list for PBXNativeTarget "motivami" */;
 			buildPhases = (
+				6FC587807B484C3B9DAE0BC3 /* Check Pods Manifest.lock */,
 				F674E5DC1769F01500E47EE4 /* Sources */,
 				F674E5DD1769F01500E47EE4 /* Frameworks */,
 				F674E5DE1769F01500E47EE4 /* Resources */,
+				89D656EF9FC448EE8969A0FE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,6 +361,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				it,
+				Base,
 			);
 			mainGroup = F674E5D71769F01500E47EE4;
 			productRefGroup = F674E5E11769F01500E47EE4 /* Products */;
@@ -162,11 +383,47 @@
 				F674E5F61769F01500E47EE4 /* Default.png in Resources */,
 				F674E5F81769F01500E47EE4 /* Default@2x.png in Resources */,
 				F674E5FA1769F01500E47EE4 /* Default-568h@2x.png in Resources */,
-				F674E5FD1769F01500E47EE4 /* MainStoryboard.storyboard in Resources */,
+				F60C121D176A5CF00023DBD2 /* checkbox-checked.png in Resources */,
+				F60C121E176A5CF00023DBD2 /* checkbox-checked@2x.png in Resources */,
+				F60C121F176A5CF00023DBD2 /* checkbox.png in Resources */,
+				F60C1220176A5CF00023DBD2 /* checkbox@2x.png in Resources */,
+				F6A8E6E3176B706400ECA885 /* MainStoryboard.storyboard in Resources */,
+				F6A8E6E6176DB3A200ECA885 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FC587807B484C3B9DAE0BC3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		89D656EF9FC448EE8969A0FE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F674E5DC1769F01500E47EE4 /* Sources */ = {
@@ -175,7 +432,31 @@
 			files = (
 				F674E5F01769F01500E47EE4 /* main.m in Sources */,
 				F674E5F41769F01500E47EE4 /* AppDelegate.m in Sources */,
-				F674E6001769F01500E47EE4 /* ViewController.m in Sources */,
+				F60C118F1769F7950023DBD2 /* Ripetizione.m in Sources */,
+				F60C119A1769F89D0023DBD2 /* appMotiv.xcdatamodeld in Sources */,
+				F60C11A81769F9460023DBD2 /* UIAlertView+AdvancedUIAlertView.m in Sources */,
+				F60C11A91769F9460023DBD2 /* UIImage+iPhone5.m in Sources */,
+				F60C11AA1769F9460023DBD2 /* UINavigationBar+CustomImage.m in Sources */,
+				F60C11AB1769F9460023DBD2 /* UIVisibleScopeSearchBar.m in Sources */,
+				F60C11AE1769F98E0023DBD2 /* MKLocalNotificationsScheduler.m in Sources */,
+				F60C11BB1769FA3A0023DBD2 /* RipetizioniViewController.m in Sources */,
+				F60C11BC1769FA3A0023DBD2 /* UsersViewController.m in Sources */,
+				F60C11BE1769FA3A0023DBD2 /* ProgrammaViewController.m in Sources */,
+				F60C11BF1769FA3A0023DBD2 /* RegisterUserViewController.m in Sources */,
+				F60C11C01769FA3A0023DBD2 /* SceltaTipoProgrammaViewController.m in Sources */,
+				F60C11CA1769FA8D0023DBD2 /* TaskCell.m in Sources */,
+				F60C11CB1769FA8D0023DBD2 /* UIHelpers.m in Sources */,
+				F60C11CC1769FA8D0023DBD2 /* SSCheckBoxView.m in Sources */,
+				F60C1218176A59EC0023DBD2 /* SceltaFrasiViewController.m in Sources */,
+				F60C1223176A66B20023DBD2 /* InitialSlidingViewController.m in Sources */,
+				F60C1226176A67350023DBD2 /* ProgrammaMotivazionaleViewController.m in Sources */,
+				F60C1229176A67A70023DBD2 /* MenuViewController.m in Sources */,
+				F60C122C176A683C0023DBD2 /* UnderRightViewController.m in Sources */,
+				F60C122F176A6D720023DBD2 /* VociMenu.m in Sources */,
+				F60C1232176B15390023DBD2 /* VideoViewController.m in Sources */,
+				F60C1235176B23450023DBD2 /* Programma.m in Sources */,
+				F60C1238176B27B60023DBD2 /* Frase.m in Sources */,
+				F6A8E6D0176B481B00ECA885 /* TipoProgramma.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,17 +466,17 @@
 		F674E5EC1769F01500E47EE4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F674E5ED1769F01500E47EE4 /* en */,
+				F60C1203176A0E960023DBD2 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		F674E5FB1769F01500E47EE4 /* MainStoryboard.storyboard */ = {
+		F6A8E6E4176DB3A200ECA885 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F674E5FC1769F01500E47EE4 /* en */,
+				F6A8E6E5176DB3A200ECA885 /* en */,
 			);
-			name = MainStoryboard.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -259,6 +540,7 @@
 		};
 		F674E6041769F01500E47EE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7456CF82E1DA4B69948DEA4B /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "motivami/motivami-Prefix.pch";
@@ -270,6 +552,7 @@
 		};
 		F674E6051769F01500E47EE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7456CF82E1DA4B69948DEA4B /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "motivami/motivami-Prefix.pch";
@@ -298,8 +581,23 @@
 				F674E6051769F01500E47EE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F60C11981769F89D0023DBD2 /* appMotiv.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F60C11991769F89D0023DBD2 /* appMotiv.xcdatamodel */,
+			);
+			currentVersion = F60C11991769F89D0023DBD2 /* appMotiv.xcdatamodel */;
+			name = appMotiv.xcdatamodeld;
+			path = ../appMotiv.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F674E5D81769F01500E47EE4 /* Project object */;
 }
