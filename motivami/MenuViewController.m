@@ -27,7 +27,10 @@
     VociMenu *mnuVideos = [[VociMenu alloc] initWithDescrizione:NSLocalizedString(@"Menu - Video", "")
                                                       andChiave:@"video"];
     
-    self.menuItems = @[mnuProgrammaMotivazionale, mnuVideos];
+    VociMenu *mnuAdmin = [[VociMenu alloc] initWithDescrizione:NSLocalizedString(@"Menu - Impostazioni Admin", "")
+                                                      andChiave:@"adminPanel"];
+    
+    self.menuItems = @[mnuProgrammaMotivazionale, mnuVideos, mnuAdmin];
     
   [self.slidingViewController setAnchorRightRevealAmount:280.0f];
   self.slidingViewController.underLeftWidthLayout = ECFullWidth;

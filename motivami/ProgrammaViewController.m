@@ -107,7 +107,7 @@
 {
     [[UIApplication sharedApplication] cancelAllLocalNotifications];
     
-    if (programma.attivo)
+    if ([programma.attivo boolValue]==YES)
     {
         
         if (programma.ripetizione == nil)
