@@ -11,4 +11,10 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <Parse/Parse.h>
+    #import "UIAlertView+AdvancedUIAlertView.h"
+    #import "MBProgressHUD.h"
+    #import "ECSlidingViewController.h"
+    #import "UIImage+iPhone5.h"
+    #import "UINavigationBar+CustomImage.h"
 #endif

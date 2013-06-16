@@ -12,6 +12,8 @@
 
 @interface Programma : NSObject <NSCoding>
 
+
+
 @property (nonatomic, strong) NSNumber *attivo;
 @property (nonatomic, strong) Ripetizione *ripetizione;
 @property (nonatomic, strong) TipoProgramma *tipoProgramma;
