@@ -144,8 +144,11 @@
                     
                     int timeInterval = (i + 1) * [programma.ripetizione.intervalloTemporale intValue];
                     
+                    NSString   *langCode = [[NSLocale currentLocale] objectForKey: NSLocaleLanguageCode];
+
+                    
                     [[MKLocalNotificationsScheduler sharedInstance] scheduleNotificationOn:[NSDate dateWithTimeIntervalSinceNow:timeInterval]
-                                                                                      text: [fp objectForKey:@"descrizione"]
+                                                                                      text: [fp objectForKey:[NSString stringWithFormat:@"descrizione_%@", langCode]]
                                                                                     action:@"View"
                                                                                      sound:nil
                                                                                launchImage:nil

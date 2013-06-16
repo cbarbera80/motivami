@@ -45,7 +45,9 @@
         
         for (PFObject *fp in objects) {
             
-            Frase *f = [[Frase alloc] initWithDescrizione:[fp objectForKey:@"descrizione"]];
+            NSString   *langCode = [[NSLocale currentLocale] objectForKey: NSLocaleLanguageCode];
+
+            Frase *f = [[Frase alloc] initWithDescrizione:[fp objectForKey:[NSString stringWithFormat:@"descrizione_%@", langCode]]];
             [frasi addObject:f];
         }
         
